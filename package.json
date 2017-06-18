@@ -10,7 +10,7 @@
     "sass-loader": "^6.0.6",
     "webpack": "^2.6.1"
   },
-  "name": "webpack2",
+  "name": "111-static-webpack",
   "version": "1.0.0",
   "main": "main.js",
   "dependencies": {
@@ -35,7 +35,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matthew Mack",
   "license": "ISC",
-  "description": ""
+  "description": "A simple setup where you edit one HTML, one JS and one CSS/SCSS file, and Webpack gives you a minified set of static files."
 }
