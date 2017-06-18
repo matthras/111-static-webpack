@@ -3,6 +3,8 @@
 
 If you want a simple setup where you only need one HTML file, one CSS/SCSS file, and one JS file, then this is the build for you. Simply edit `main.html`,`main.scss`, and `main.js` and Webpack will spit out a minified set of static files into your `dist` folder.
 
+Note: You can write regular CSS in `main.scss`, but the feature is there for those who know how to write SCSS.
+
 ### Requirements
 
 * [NodeJS](https://nodejs.org/en/)
