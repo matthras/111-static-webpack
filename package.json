@@ -40,6 +40,11 @@
     "build": "webpack",
     "start": "webpack-dev-server --port 9999 --content-base dist/"
   },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "keywords": [],
   "author": "Matthew Mack",
   "license": "ISC",
