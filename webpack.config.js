@@ -20,7 +20,14 @@ module.exports = {
     {
       test: /\.html$/,
       loader: 'html-loader'
-    }
+    },
+    {
+      test: /\.js$/,
+      loader: 'babel-loader',
+      query: {
+        presets: ['babel-preset-es2015'].map(require.resolve)
+      }
+    } 
     ]
   },
   plugins: [
@@ -32,7 +39,7 @@ module.exports = {
       title: 'Insert Your Arbitrary Title Here',
       filename: 'index.html',
       template: 'main.html',
-      minify: {}
+      minify: {removeComments:true, collapseWhitespace: true, collapseInlineTagWhitespace: true}
     }),
     new OptimizeCssAssetsPlugin()
   ]
