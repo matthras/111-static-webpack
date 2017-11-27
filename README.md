@@ -22,5 +22,9 @@ A couple of notes:
 ### Instructions
 
 * `npm build`: compile your static files which can be found in your `dist` folder.
-* `npm start`: start a server that has live reload (i.e. your browser will automatically refresh whenever you make changes to the base files). Default URL is `localhost:6969`.
+* `npm start`: start a server that has live reload (i.e. your browser will automatically refresh whenever you make changes to the base files). Default URL is `localhost:9999`.
+
+### Warnings
+
+* This build uses node-sass which at the time of writing this, may cause problems for some. One solution is to use a verison of node lower then version 8. 
 
